@@ -2,10 +2,14 @@
 // Returns true if the age is 21 years or older. Otherwise, returns false.
 function checkDrinkingAge(age) {
   // TODO: Implement this function.
-  const result = undefined;
+  let result = false;
+  if(age>=21){
+    result = true;
+  }else{
+    result = false;
+  }
   return result;
 }
-
 // DO NOT CHANGE ANYTHING BELOW THIS LINE.
 
 module.exports = {
